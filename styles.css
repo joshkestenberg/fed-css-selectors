@@ -34,3 +34,25 @@ header {
 #item2 {
   text-align: right;
 }
+
+/*#advanced-selectors ol:nth-child(2n-1)>p{*/
+  #advanced-selectors li:nth-child(odd)>p{
+  background-color: green;
+}
+
+#advanced-selectors li>p {
+  padding: 20px;
+  background-color: grey;
+}
+
+[title~="Bitmaker"]:hover {
+  text-decoration: none;
+}
+
+li>ul>li>a:hover{
+  color: yellow;
+}
+
+li>ul>li>a:active{
+  color: red;
+}
